@@ -6,3 +6,5 @@ def solution(numbers):
                 answer.append(numbers[i]+numbers[j])
     answer.sort()
     return answer
+#전부 지우고 다시 만들 예정
+#커밋용 ... ㅡㅡ;;
