@@ -18,6 +18,8 @@ print(dic.values()) #해당 dictionary에 존재하는 값들을 불러온다,
 print(dic.items()) # 키와 값을 묶어서 출력한다.
 klist = list(dic.keys()) # 키의 값을 배열로 묶어서 변수에 저장
 print(type(klist))
+print('a' in dic) #키 값에 있는지 없는지 True False로 알려줌
+print('A' in dic) #value는 검색 안됨
 
 li = [['boys', '소년'], ['girls', '소녀']]
 di = dict(li) #2차원 배열을 dictionary로 만들 수도 있다.
