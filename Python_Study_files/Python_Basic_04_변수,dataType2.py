@@ -1,5 +1,6 @@
 a = 0xf
 b = 1.53456
+print(type(b))
 c = 1.54e10
 print(hex(a)) #16진수 표기법으로 출력해줌
 
